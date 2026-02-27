@@ -13,3 +13,5 @@
 <img width="296" height="528" alt="image" src="https://github.com/user-attachments/assets/7f900413-d507-4a16-8331-a28876b11b9c" />
 <img width="297" height="527" alt="image" src="https://github.com/user-attachments/assets/02e91d0c-5f09-4b84-aca2-872dac909331" />
 <img width="296" height="531" alt="image" src="https://github.com/user-attachments/assets/c25f4cb3-5840-451a-8bf9-2ffb93256733" />
+
+Lemguaje Dart Flutter, Nivel principiante, navegacion entre 3 paginas utilizando rutas nombradas, desde main llamar a la pagina1, en la pagina1 en appbar mostrar el texto "inicio Palacios 6J" en color rosa, color de fondo blanco, iconos  rosas, en body un contenedor redondeado color rosa claro 200 por 200 con texto negro y centrado, y un boton de color verde claro texto negro para seleccionar pagina 2, en la pagina 2 un appbar con texto "Segunda pagina 6J " verde con fondo blanco y los iconos en rosa, en body una imagen desde la red y un boton para avanzar a la pagina 3, en la pagina 3 en appbar un texto color negro "pagina 3 La Palacios", color de fondo lila, todo en un solo archivo, elegante y atractivo
