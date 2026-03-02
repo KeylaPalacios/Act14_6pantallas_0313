@@ -1,17 +1,14 @@
 import 'package:flutter/material.dart';
-import 'paginas/pagina1.dart';
-import 'paginas/pagina2.dart';
-import 'paginas/pagina3.dart';
-import 'paginas/novedades.dart';
-import 'paginas/categoria.dart';
-import 'paginas/carrito.dart'; // 1. Importamos la nueva página del carrito
+import 'paginas/inicio.dart';
+import 'paginas/categorias.dart';
+import 'paginas/perfil.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(const DivineBeautyApp());
 }
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+class DivineBeautyApp extends StatelessWidget {
+  const DivineBeautyApp({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -20,16 +17,14 @@ class MyApp extends StatelessWidget {
       title: 'Divine Beauty',
       theme: ThemeData(
         primarySwatch: Colors.pink,
+        fontFamily: 'Serif',
       ),
-      // Mantenemos el inicio en la Página 1 como pediste
-      initialRoute: '/', 
+      // Definición de rutas nombradas
+      initialRoute: '/',
       routes: {
-        '/': (context) => const Pagina1(),
-        '/pagina2': (context) => const Pagina2(),
-        '/pagina3': (context) => const Pagina3(),
-        '/novedades': (context) => const NovedadesPage(),
-        '/categoria': (context) => const CategoriaPage(),
-        '/carrito': (context) => const CarritoPage(), // 2. Agregamos la ruta del carrito
+        '/': (context) => const InicioPage(),
+        '/categorias': (context) => const CategoriasPage(),
+        '/perfil': (context) => const PerfilPage(),
       },
     );
   }
